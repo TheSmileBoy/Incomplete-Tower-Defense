@@ -93,8 +93,9 @@ SteppedRegister.Register("NPCMove", function(time, dt)
 	table.clear(PositionCache)
 	
 	for DefenseUID: string, NPCArray in (Data) do
-		for _, NPCTable in (NPCArray) do
+		for Order, NPCTable in (NPCArray) do
 			if not NPCTable or NPCTable.Died then
+				table.remove(NPCArray, Order)
 				continue
 			end
 			

@@ -1,5 +1,5 @@
 return {
-	Range = 18,
+	Range = 22,
 	Damage = 50,
 	Cooldown = .1,
 	Height = 2,

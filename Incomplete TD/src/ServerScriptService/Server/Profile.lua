@@ -40,7 +40,8 @@ function Profile.ProfileStart(Player :Player)
 
 		if Player.Parent == Players then
 			Manager[Player] = profile
-
+			
+			profile.Data.Currency.Cash = 1000
 			for CurrencyName, CurrencyCount in (profile.Data.Currency) do
 				print(CurrencyName, CurrencyCount)
 				Player:SetAttribute(CurrencyName, CurrencyCount)
