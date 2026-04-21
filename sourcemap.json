@@ -1,0 +1,2187 @@
+{
+  "name": "Game",
+  "className": "DataModel",
+  "children": [
+    {
+      "name": "Lighting",
+      "className": "Lighting",
+      "guid": "134540"
+    },
+    {
+      "name": "ReplicatedFirst",
+      "className": "ReplicatedFirst",
+      "guid": "134119"
+    },
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "guid": "134296",
+      "children": [
+        {
+          "name": "Client",
+          "className": "Folder",
+          "guid": "134520",
+          "children": [
+            {
+              "name": "ObjectView",
+              "className": "ModuleScript",
+              "guid": "134608",
+              "filePaths": [
+                "sync/ReplicatedStorage/Client/ObjectView.luau"
+              ],
+              "children": [
+                {
+                  "name": "Highlight",
+                  "className": "Highlight",
+                  "guid": "134533"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GameConfig",
+          "className": "ModuleScript",
+          "guid": "134607",
+          "filePaths": [
+            "sync/ReplicatedStorage/GameConfig.luau"
+          ],
+          "children": [
+            {
+              "name": "Gradients",
+              "className": "Folder",
+              "guid": "134519",
+              "children": [
+                {
+                  "name": "CashGradient",
+                  "className": "UIGradient",
+                  "guid": "134769"
+                },
+                {
+                  "name": "CrystalGradient",
+                  "className": "UIGradient",
+                  "guid": "134771"
+                },
+                {
+                  "name": "DiamondGradient",
+                  "className": "UIGradient",
+                  "guid": "134770"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Network",
+          "className": "Folder",
+          "guid": "134518",
+          "children": [
+            {
+              "name": "Manager",
+              "className": "ModuleScript",
+              "guid": "134604",
+              "filePaths": [
+                "sync/ReplicatedStorage/Network/Manager.luau"
+              ],
+              "children": [
+                {
+                  "name": "Template",
+                  "className": "ModuleScript",
+                  "guid": "134605",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Network/Manager/Template.luau"
+                  ]
+                },
+                {
+                  "name": "UpdateProfile",
+                  "className": "ModuleScript",
+                  "guid": "134606",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Network/Manager/UpdateProfile.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Remote",
+              "className": "ModuleScript",
+              "guid": "134603",
+              "filePaths": [
+                "sync/ReplicatedStorage/Network/Remote.luau"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RemoteEvent",
+          "className": "RemoteEvent",
+          "guid": "134702"
+        },
+        {
+          "name": "Services",
+          "className": "Folder",
+          "guid": "134513",
+          "children": [
+            {
+              "name": "NPCHandler",
+              "className": "ModuleScript",
+              "guid": "134589",
+              "filePaths": [
+                "sync/ReplicatedStorage/Services/NPCHandler.luau"
+              ],
+              "children": [
+                {
+                  "name": "Client",
+                  "className": "Folder",
+                  "guid": "134515",
+                  "children": [
+                    {
+                      "name": "MoveNPC",
+                      "className": "ModuleScript",
+                      "guid": "134591",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Client/MoveNPC.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "StartAnimation",
+                          "className": "ModuleScript",
+                          "guid": "134592",
+                          "filePaths": [
+                            "sync/ReplicatedStorage/Services/NPCHandler/Client/MoveNPC/StartAnimation.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "Animation",
+                              "className": "Animation",
+                              "guid": "134430"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "NPC",
+                  "className": "ModuleScript",
+                  "guid": "134598",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Services/NPCHandler/NPC.luau"
+                  ]
+                },
+                {
+                  "name": "Resources",
+                  "className": "Folder",
+                  "guid": "134516",
+                  "children": [
+                    {
+                      "name": "GetHeightFromNPC",
+                      "className": "ModuleScript",
+                      "guid": "134593",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Resources/GetHeightFromNPC.luau"
+                      ]
+                    },
+                    {
+                      "name": "GetMap",
+                      "className": "ModuleScript",
+                      "guid": "134594",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Resources/GetMap.luau"
+                      ]
+                    },
+                    {
+                      "name": "GetNPC",
+                      "className": "ModuleScript",
+                      "guid": "134596",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Resources/GetNPC.luau"
+                      ]
+                    },
+                    {
+                      "name": "GetPathPart",
+                      "className": "ModuleScript",
+                      "guid": "134595",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Resources/GetPathPart.luau"
+                      ]
+                    },
+                    {
+                      "name": "OnBaseHit",
+                      "className": "ModuleScript",
+                      "guid": "134597",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Resources/OnBaseHit.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Server",
+                  "className": "Folder",
+                  "guid": "134514",
+                  "children": [
+                    {
+                      "name": "PredictNPC",
+                      "className": "ModuleScript",
+                      "guid": "134590",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/NPCHandler/Server/PredictNPC.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134667"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "TowerHandler",
+              "className": "ModuleScript",
+              "guid": "134599",
+              "filePaths": [
+                "sync/ReplicatedStorage/Services/TowerHandler.luau"
+              ],
+              "children": [
+                {
+                  "name": "Resources",
+                  "className": "Folder",
+                  "guid": "134517",
+                  "children": [
+                    {
+                      "name": "NewFront",
+                      "className": "ModuleScript",
+                      "guid": "134601",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/TowerHandler/Resources/NewFront.luau"
+                      ]
+                    },
+                    {
+                      "name": "OnHit",
+                      "className": "ModuleScript",
+                      "guid": "134600",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Services/TowerHandler/Resources/OnHit.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Tower",
+                  "className": "ModuleScript",
+                  "guid": "134602",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Services/TowerHandler/Tower.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Hitbox",
+                      "className": "Part",
+                      "guid": "134668",
+                      "children": [
+                        {
+                          "name": "WeldConstraint",
+                          "className": "WeldConstraint",
+                          "guid": "134796"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shared",
+          "className": "Folder",
+          "guid": "134502",
+          "children": [
+            {
+              "name": "Configs",
+              "className": "Folder",
+              "guid": "134503",
+              "children": [
+                {
+                  "name": "Maps",
+                  "className": "Folder",
+                  "guid": "134506",
+                  "children": [
+                    {
+                      "name": "Map1",
+                      "className": "ModuleScript",
+                      "guid": "134570",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/Maps/Map1.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "NPC",
+                  "className": "Folder",
+                  "guid": "134504",
+                  "children": [
+                    {
+                      "name": "Glitch Boss",
+                      "className": "ModuleScript",
+                      "guid": "134566",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/NPC/Glitch Boss.luau"
+                      ]
+                    },
+                    {
+                      "name": "Noob 01",
+                      "className": "ModuleScript",
+                      "guid": "134565",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/NPC/Noob 01.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Towers",
+                  "className": "Folder",
+                  "guid": "134505",
+                  "children": [
+                    {
+                      "name": "Blue Shot",
+                      "className": "ModuleScript",
+                      "guid": "134568",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/Towers/Blue Shot.luau"
+                      ]
+                    },
+                    {
+                      "name": "Green Shot",
+                      "className": "ModuleScript",
+                      "guid": "134569",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/Towers/Green Shot.luau"
+                      ]
+                    },
+                    {
+                      "name": "Red Shot",
+                      "className": "ModuleScript",
+                      "guid": "134567",
+                      "filePaths": [
+                        "sync/ReplicatedStorage/Shared/Configs/Towers/Red Shot.luau"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Objects",
+              "className": "Folder",
+              "guid": "134509",
+              "children": [
+                {
+                  "name": "NPCs",
+                  "className": "Folder",
+                  "guid": "134510",
+                  "children": [
+                    {
+                      "name": "Glitch Boss",
+                      "className": "Model",
+                      "guid": "134552",
+                      "children": [
+                        {
+                          "name": "AnimationController",
+                          "className": "AnimationController",
+                          "guid": "134432",
+                          "children": [
+                            {
+                              "name": "Animator",
+                              "className": "Animator",
+                              "guid": "134434"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Head",
+                          "className": "Part",
+                          "guid": "134642",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134498"
+                            },
+                            {
+                              "name": "Mesh",
+                              "className": "SpecialMesh",
+                              "guid": "134716"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134700"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HumanoidRootPart",
+                          "className": "Part",
+                          "guid": "134636",
+                          "children": [
+                            {
+                              "name": "RootJoint",
+                              "className": "Motor6D",
+                              "guid": "134621"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Left Arm",
+                          "className": "Part",
+                          "guid": "134640",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134488"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134489"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134490"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134491"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134492"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134695"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134696"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Left Leg",
+                          "className": "Part",
+                          "guid": "134638",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134478"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134479"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134480"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134481"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134482"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134691"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134692"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Right Arm",
+                          "className": "Part",
+                          "guid": "134641",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134493"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134494"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134495"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134496"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134497"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134697"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134698"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134699"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Right Leg",
+                          "className": "Part",
+                          "guid": "134639",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134483"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134484"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134485"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134486"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134487"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134693"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134694"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Torso",
+                          "className": "Part",
+                          "guid": "134637",
+                          "children": [
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134472"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134473"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134474"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134475"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134476"
+                            },
+                            {
+                              "name": "Decal",
+                              "className": "Decal",
+                              "guid": "134477"
+                            },
+                            {
+                              "name": "Left Hip",
+                              "className": "Motor6D",
+                              "guid": "134622"
+                            },
+                            {
+                              "name": "Left Shoulder",
+                              "className": "Motor6D",
+                              "guid": "134624"
+                            },
+                            {
+                              "name": "Neck",
+                              "className": "Motor6D",
+                              "guid": "134626"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134688"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134689"
+                            },
+                            {
+                              "name": "ParticleEmitter",
+                              "className": "ParticleEmitter",
+                              "guid": "134690"
+                            },
+                            {
+                              "name": "Right Hip",
+                              "className": "Motor6D",
+                              "guid": "134623"
+                            },
+                            {
+                              "name": "Right Shoulder",
+                              "className": "Motor6D",
+                              "guid": "134625"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Noob 01",
+                      "className": "Model",
+                      "guid": "134551",
+                      "children": [
+                        {
+                          "name": "AnimationController",
+                          "className": "AnimationController",
+                          "guid": "134431",
+                          "children": [
+                            {
+                              "name": "Animator",
+                              "className": "Animator",
+                              "guid": "134433"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Head",
+                          "className": "Part",
+                          "guid": "134629",
+                          "children": [
+                            {
+                              "name": "face",
+                              "className": "Decal",
+                              "guid": "134470"
+                            },
+                            {
+                              "name": "FaceCenterAttachment",
+                              "className": "Attachment",
+                              "guid": "134439"
+                            },
+                            {
+                              "name": "FaceFrontAttachment",
+                              "className": "Attachment",
+                              "guid": "134438"
+                            },
+                            {
+                              "name": "HairAttachment",
+                              "className": "Attachment",
+                              "guid": "134437"
+                            },
+                            {
+                              "name": "HatAttachment",
+                              "className": "Attachment",
+                              "guid": "134436"
+                            },
+                            {
+                              "name": "Mesh",
+                              "className": "SpecialMesh",
+                              "guid": "134715"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "HumanoidRootPart",
+                          "className": "Part",
+                          "guid": "134630",
+                          "children": [
+                            {
+                              "name": "RootJoint",
+                              "className": "Motor6D",
+                              "guid": "134615"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Left Arm",
+                          "className": "Part",
+                          "guid": "134631",
+                          "children": [
+                            {
+                              "name": "LeftShoulderAttachment",
+                              "className": "Attachment",
+                              "guid": "134440"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Left Leg",
+                          "className": "Part",
+                          "guid": "134632"
+                        },
+                        {
+                          "name": "Right Arm",
+                          "className": "Part",
+                          "guid": "134633",
+                          "children": [
+                            {
+                              "name": "RightShoulderAttachment",
+                              "className": "Attachment",
+                              "guid": "134441"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Right Leg",
+                          "className": "Part",
+                          "guid": "134634"
+                        },
+                        {
+                          "name": "Torso",
+                          "className": "Part",
+                          "guid": "134635",
+                          "children": [
+                            {
+                              "name": "BodyBackAttachment",
+                              "className": "Attachment",
+                              "guid": "134449"
+                            },
+                            {
+                              "name": "BodyFrontAttachment",
+                              "className": "Attachment",
+                              "guid": "134448"
+                            },
+                            {
+                              "name": "Left Hip",
+                              "className": "Motor6D",
+                              "guid": "134620"
+                            },
+                            {
+                              "name": "Left Shoulder",
+                              "className": "Motor6D",
+                              "guid": "134619"
+                            },
+                            {
+                              "name": "LeftCollarAttachment",
+                              "className": "Attachment",
+                              "guid": "134447"
+                            },
+                            {
+                              "name": "Neck",
+                              "className": "Motor6D",
+                              "guid": "134618"
+                            },
+                            {
+                              "name": "NeckAttachment",
+                              "className": "Attachment",
+                              "guid": "134446"
+                            },
+                            {
+                              "name": "Right Hip",
+                              "className": "Motor6D",
+                              "guid": "134617"
+                            },
+                            {
+                              "name": "Right Shoulder",
+                              "className": "Motor6D",
+                              "guid": "134616"
+                            },
+                            {
+                              "name": "RightCollarAttachment",
+                              "className": "Attachment",
+                              "guid": "134445"
+                            },
+                            {
+                              "name": "roblox",
+                              "className": "Decal",
+                              "guid": "134471"
+                            },
+                            {
+                              "name": "WaistBackAttachment",
+                              "className": "Attachment",
+                              "guid": "134444"
+                            },
+                            {
+                              "name": "WaistCenterAttachment",
+                              "className": "Attachment",
+                              "guid": "134443"
+                            },
+                            {
+                              "name": "WaistFrontAttachment",
+                              "className": "Attachment",
+                              "guid": "134442"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Projectiles",
+                  "className": "Folder",
+                  "guid": "134512",
+                  "children": [
+                    {
+                      "name": "NeonBlock",
+                      "className": "Part",
+                      "guid": "134664"
+                    },
+                    {
+                      "name": "NeonBlockBlue",
+                      "className": "Part",
+                      "guid": "134666"
+                    },
+                    {
+                      "name": "NeonBlockGreen",
+                      "className": "Part",
+                      "guid": "134665"
+                    }
+                  ]
+                },
+                {
+                  "name": "Towers",
+                  "className": "Folder",
+                  "guid": "134511",
+                  "children": [
+                    {
+                      "name": "Blue Shot",
+                      "className": "Model",
+                      "guid": "134555",
+                      "children": [
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134657"
+                        },
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134658"
+                        },
+                        {
+                          "name": "Turret",
+                          "className": "Part",
+                          "guid": "134659",
+                          "children": [
+                            {
+                              "name": "Fire",
+                              "className": "Part",
+                              "guid": "134663",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134795"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LookDirection",
+                              "className": "Attachment",
+                              "guid": "134452"
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134660",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134792"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134661",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134793"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134662",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134794"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Green Shot",
+                      "className": "Model",
+                      "guid": "134554",
+                      "children": [
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134650"
+                        },
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134651"
+                        },
+                        {
+                          "name": "Turret",
+                          "className": "Part",
+                          "guid": "134652",
+                          "children": [
+                            {
+                              "name": "Fire",
+                              "className": "Part",
+                              "guid": "134656",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134791"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LookDirection",
+                              "className": "Attachment",
+                              "guid": "134451"
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134653",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134788"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134654",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134789"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134655",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134790"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Red Shot",
+                      "className": "Model",
+                      "guid": "134553",
+                      "children": [
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134643"
+                        },
+                        {
+                          "name": "Part",
+                          "className": "Part",
+                          "guid": "134644"
+                        },
+                        {
+                          "name": "Turret",
+                          "className": "Part",
+                          "guid": "134645",
+                          "children": [
+                            {
+                              "name": "Fire",
+                              "className": "Part",
+                              "guid": "134649",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134787"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LookDirection",
+                              "className": "Attachment",
+                              "guid": "134450"
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134646",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134784"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134647",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134785"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Part",
+                              "className": "Part",
+                              "guid": "134648",
+                              "children": [
+                                {
+                                  "name": "WeldConstraint",
+                                  "className": "WeldConstraint",
+                                  "guid": "134786"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Types",
+              "className": "Folder",
+              "guid": "134508",
+              "children": [
+                {
+                  "name": "MapTypes",
+                  "className": "ModuleScript",
+                  "guid": "134588",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Types/MapTypes.luau"
+                  ]
+                },
+                {
+                  "name": "NPCTypes",
+                  "className": "ModuleScript",
+                  "guid": "134586",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Types/NPCTypes.luau"
+                  ]
+                },
+                {
+                  "name": "TowersTypes",
+                  "className": "ModuleScript",
+                  "guid": "134587",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Types/TowersTypes.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Utils",
+              "className": "Folder",
+              "guid": "134507",
+              "children": [
+                {
+                  "name": "BulkMoveTo",
+                  "className": "ModuleScript",
+                  "guid": "134573",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/BulkMoveTo.luau"
+                  ]
+                },
+                {
+                  "name": "Collection",
+                  "className": "ModuleScript",
+                  "guid": "134583",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Collection.luau"
+                  ]
+                },
+                {
+                  "name": "CreateCircle",
+                  "className": "ModuleScript",
+                  "guid": "134576",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/CreateCircle.luau"
+                  ]
+                },
+                {
+                  "name": "Emotes",
+                  "className": "ModuleScript",
+                  "guid": "134574",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Emotes.luau"
+                  ]
+                },
+                {
+                  "name": "GetMouseHit",
+                  "className": "ModuleScript",
+                  "guid": "134575",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/GetMouseHit.luau"
+                  ]
+                },
+                {
+                  "name": "GetTableByName",
+                  "className": "ModuleScript",
+                  "guid": "134571",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/GetTableByName.luau"
+                  ]
+                },
+                {
+                  "name": "Highlight",
+                  "className": "ModuleScript",
+                  "guid": "134579",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Highlight.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Highlight",
+                      "className": "Highlight",
+                      "guid": "134532"
+                    }
+                  ]
+                },
+                {
+                  "name": "NewUID",
+                  "className": "ModuleScript",
+                  "guid": "134572",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/NewUID.luau"
+                  ]
+                },
+                {
+                  "name": "Objects",
+                  "className": "ModuleScript",
+                  "guid": "134582",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Objects.luau"
+                  ]
+                },
+                {
+                  "name": "RBXConnection",
+                  "className": "ModuleScript",
+                  "guid": "134581",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/RBXConnection.luau"
+                  ]
+                },
+                {
+                  "name": "SteppedRegister",
+                  "className": "ModuleScript",
+                  "guid": "134585",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/SteppedRegister.luau"
+                  ]
+                },
+                {
+                  "name": "Storage",
+                  "className": "ModuleScript",
+                  "guid": "134584",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Storage.luau"
+                  ]
+                },
+                {
+                  "name": "VFX",
+                  "className": "ModuleScript",
+                  "guid": "134577",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/VFX.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Cash",
+                      "className": "Part",
+                      "guid": "134628",
+                      "children": [
+                        {
+                          "name": "Main",
+                          "className": "Attachment",
+                          "guid": "134435",
+                          "children": [
+                            {
+                              "name": "Glow-01",
+                              "className": "ParticleEmitter",
+                              "guid": "134686"
+                            },
+                            {
+                              "name": "Sparks1",
+                              "className": "ParticleEmitter",
+                              "guid": "134687"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Vignette",
+                  "className": "ModuleScript",
+                  "guid": "134578",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Vignette.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "Vignette",
+                      "className": "ImageLabel",
+                      "guid": "134539"
+                    }
+                  ]
+                },
+                {
+                  "name": "Weld",
+                  "className": "ModuleScript",
+                  "guid": "134580",
+                  "filePaths": [
+                    "sync/ReplicatedStorage/Shared/Utils/Weld.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerScriptService",
+      "className": "ServerScriptService",
+      "guid": "134297",
+      "children": [
+        {
+          "name": "Server",
+          "className": "Script",
+          "guid": "134708",
+          "filePaths": [
+            "sync/ServerScriptService/Server.server.luau"
+          ],
+          "children": [
+            {
+              "name": "Profile",
+              "className": "ModuleScript",
+              "guid": "134609",
+              "filePaths": [
+                "sync/ServerScriptService/Server/Profile.luau"
+              ]
+            },
+            {
+              "name": "Requests",
+              "className": "Script",
+              "guid": "134709",
+              "filePaths": [
+                "sync/ServerScriptService/Server/Requests.server.luau"
+              ],
+              "children": [
+                {
+                  "name": "Part",
+                  "className": "Part",
+                  "guid": "134669"
+                }
+              ]
+            },
+            {
+              "name": "Resources",
+              "className": "Folder",
+              "guid": "134521",
+              "children": [
+                {
+                  "name": "GridManager",
+                  "className": "ModuleScript",
+                  "guid": "134610",
+                  "filePaths": [
+                    "sync/ServerScriptService/Server/Resources/GridManager.luau"
+                  ]
+                },
+                {
+                  "name": "WaveSequence",
+                  "className": "ModuleScript",
+                  "guid": "134611",
+                  "filePaths": [
+                    "sync/ServerScriptService/Server/Resources/WaveSequence.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ServerStorage",
+      "className": "ServerStorage",
+      "guid": "134298",
+      "children": [
+        {
+          "name": "Modules",
+          "className": "Folder",
+          "guid": "134522",
+          "children": [
+            {
+              "name": "ProfileStore",
+              "className": "ModuleScript",
+              "guid": "134612",
+              "filePaths": [
+                "sync/ServerStorage/Modules/ProfileStore.luau"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Objects",
+          "className": "Folder",
+          "guid": "134523",
+          "children": [
+            {
+              "name": "Map",
+              "className": "Folder",
+              "guid": "134524",
+              "children": [
+                {
+                  "name": "Map1",
+                  "className": "Model",
+                  "guid": "134556",
+                  "children": [
+                    {
+                      "name": "Base",
+                      "className": "Part",
+                      "guid": "134684"
+                    },
+                    {
+                      "name": "Grass",
+                      "className": "Part",
+                      "guid": "134677"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134678"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134679"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134680"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134681"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134682"
+                    },
+                    {
+                      "name": "Part",
+                      "className": "Part",
+                      "guid": "134683"
+                    },
+                    {
+                      "name": "Path",
+                      "className": "Folder",
+                      "guid": "134525",
+                      "children": [
+                        {
+                          "name": "0",
+                          "className": "Part",
+                          "guid": "134676"
+                        },
+                        {
+                          "name": "1",
+                          "className": "Part",
+                          "guid": "134670"
+                        },
+                        {
+                          "name": "2",
+                          "className": "Part",
+                          "guid": "134671"
+                        },
+                        {
+                          "name": "3",
+                          "className": "Part",
+                          "guid": "134672"
+                        },
+                        {
+                          "name": "4",
+                          "className": "Part",
+                          "guid": "134673"
+                        },
+                        {
+                          "name": "5",
+                          "className": "Part",
+                          "guid": "134674"
+                        },
+                        {
+                          "name": "6",
+                          "className": "Part",
+                          "guid": "134675"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Spawnpoint",
+                      "className": "Part",
+                      "guid": "134685"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SoundService",
+      "className": "SoundService",
+      "guid": "134068"
+    },
+    {
+      "name": "StarterGui",
+      "className": "StarterGui",
+      "guid": "134133",
+      "children": [
+        {
+          "name": "CurrencyUI",
+          "className": "ScreenGui",
+          "guid": "134705",
+          "children": [
+            {
+              "name": "Currency",
+              "className": "LocalScript",
+              "guid": "134543",
+              "filePaths": [
+                "sync/StarterGui/CurrencyUI/Currency.client.luau"
+              ],
+              "children": [
+                {
+                  "name": "ScreenIcons",
+                  "className": "ModuleScript",
+                  "guid": "134564",
+                  "filePaths": [
+                    "sync/StarterGui/CurrencyUI/Currency/ScreenIcons.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "CloneLabel",
+                      "className": "ImageLabel",
+                      "guid": "134538",
+                      "children": [
+                        {
+                          "name": "TextLabel",
+                          "className": "TextLabel",
+                          "guid": "134735",
+                          "children": [
+                            {
+                              "name": "UIGradient",
+                              "className": "UIGradient",
+                              "guid": "134767"
+                            },
+                            {
+                              "name": "UIStroke",
+                              "className": "UIStroke",
+                              "guid": "134780"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "UIAspectRatioConstraint",
+                          "className": "UIAspectRatioConstraint",
+                          "guid": "134746"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "UIGradient",
+                  "className": "UIGradient",
+                  "guid": "134766"
+                }
+              ]
+            },
+            {
+              "name": "ScrollingFrame",
+              "className": "ScrollingFrame",
+              "guid": "134713",
+              "children": [
+                {
+                  "name": "Stack",
+                  "className": "Frame",
+                  "guid": "134530",
+                  "children": [
+                    {
+                      "name": "CurrencyUI",
+                      "className": "ImageLabel",
+                      "guid": "134537"
+                    },
+                    {
+                      "name": "TextLabel",
+                      "className": "TextLabel",
+                      "guid": "134734",
+                      "children": [
+                        {
+                          "name": "UIGradient",
+                          "className": "UIGradient",
+                          "guid": "134765"
+                        },
+                        {
+                          "name": "UIStroke",
+                          "className": "UIStroke",
+                          "guid": "134779"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "UIAspectRatioConstraint",
+                      "className": "UIAspectRatioConstraint",
+                      "guid": "134745"
+                    }
+                  ]
+                },
+                {
+                  "name": "UIListLayout",
+                  "className": "UIListLayout",
+                  "guid": "134775"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HealthUI",
+          "className": "ScreenGui",
+          "guid": "134707",
+          "children": [
+            {
+              "name": "CanvasHealth",
+              "className": "CanvasGroup",
+              "guid": "134466",
+              "children": [
+                {
+                  "name": "HealthText",
+                  "className": "TextButton",
+                  "guid": "134729",
+                  "children": [
+                    {
+                      "name": "UICorner",
+                      "className": "UICorner",
+                      "guid": "134757"
+                    }
+                  ]
+                },
+                {
+                  "name": "UICorner",
+                  "className": "UICorner",
+                  "guid": "134758"
+                },
+                {
+                  "name": "UIGradient",
+                  "className": "UIGradient",
+                  "guid": "134768"
+                }
+              ]
+            },
+            {
+              "name": "ObjectName",
+              "className": "TextButton",
+              "guid": "134730",
+              "children": [
+                {
+                  "name": "UICorner",
+                  "className": "UICorner",
+                  "guid": "134759"
+                }
+              ]
+            },
+            {
+              "name": "Tracker",
+              "className": "LocalScript",
+              "guid": "134544",
+              "filePaths": [
+                "sync/StarterGui/HealthUI/Tracker.client.luau"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ScreenEffects",
+          "className": "ScreenGui",
+          "guid": "134706",
+          "children": [
+            {
+              "name": "Frame",
+              "className": "Frame",
+              "guid": "134531"
+            }
+          ]
+        },
+        {
+          "name": "SelectionUI",
+          "className": "ScreenGui",
+          "guid": "134704",
+          "children": [
+            {
+              "name": "CanvasInfo",
+              "className": "CanvasGroup",
+              "guid": "134465",
+              "children": [
+                {
+                  "name": "OptionsFrame",
+                  "className": "ScrollingFrame",
+                  "guid": "134711",
+                  "children": [
+                    {
+                      "name": "OptionName",
+                      "className": "TextButton",
+                      "guid": "134727",
+                      "children": [
+                        {
+                          "name": "UICorner",
+                          "className": "UICorner",
+                          "guid": "134755"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "UIListLayout",
+                      "className": "UIListLayout",
+                      "guid": "134773"
+                    }
+                  ]
+                },
+                {
+                  "name": "StatsFrame",
+                  "className": "ScrollingFrame",
+                  "guid": "134712",
+                  "children": [
+                    {
+                      "name": "TowerStats",
+                      "className": "TextButton",
+                      "guid": "134728",
+                      "children": [
+                        {
+                          "name": "UICorner",
+                          "className": "UICorner",
+                          "guid": "134756"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "UIListLayout",
+                      "className": "UIListLayout",
+                      "guid": "134774"
+                    }
+                  ]
+                },
+                {
+                  "name": "TowerIcon",
+                  "className": "ImageLabel",
+                  "guid": "134536",
+                  "children": [
+                    {
+                      "name": "UIStroke",
+                      "className": "UIStroke",
+                      "guid": "134778"
+                    }
+                  ]
+                },
+                {
+                  "name": "UIAspectRatioConstraint",
+                  "className": "UIAspectRatioConstraint",
+                  "guid": "134744"
+                },
+                {
+                  "name": "UICorner",
+                  "className": "UICorner",
+                  "guid": "134754"
+                },
+                {
+                  "name": "UIGradient",
+                  "className": "UIGradient",
+                  "guid": "134764"
+                },
+                {
+                  "name": "UIStroke",
+                  "className": "UIStroke",
+                  "guid": "134777",
+                  "children": [
+                    {
+                      "name": "UIGradient",
+                      "className": "UIGradient",
+                      "guid": "134763"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "CanvasName",
+              "className": "CanvasGroup",
+              "guid": "134464",
+              "children": [
+                {
+                  "name": "TowerName",
+                  "className": "TextButton",
+                  "guid": "134726",
+                  "children": [
+                    {
+                      "name": "UICorner",
+                      "className": "UICorner",
+                      "guid": "134753"
+                    }
+                  ]
+                },
+                {
+                  "name": "UIAspectRatioConstraint",
+                  "className": "UIAspectRatioConstraint",
+                  "guid": "134743"
+                },
+                {
+                  "name": "UIGradient",
+                  "className": "UIGradient",
+                  "guid": "134762"
+                }
+              ]
+            },
+            {
+              "name": "SelectionHandler",
+              "className": "LocalScript",
+              "guid": "134542",
+              "filePaths": [
+                "sync/StarterGui/SelectionUI/SelectionHandler.client.luau"
+              ],
+              "children": [
+                {
+                  "name": "CreateOptions",
+                  "className": "ModuleScript",
+                  "guid": "134559",
+                  "filePaths": [
+                    "sync/StarterGui/SelectionUI/SelectionHandler/CreateOptions.luau"
+                  ]
+                },
+                {
+                  "name": "CreateStats",
+                  "className": "ModuleScript",
+                  "guid": "134560",
+                  "filePaths": [
+                    "sync/StarterGui/SelectionUI/SelectionHandler/CreateStats.luau"
+                  ]
+                },
+                {
+                  "name": "OptionsModule",
+                  "className": "Folder",
+                  "guid": "134501",
+                  "children": [
+                    {
+                      "name": "Buy",
+                      "className": "ModuleScript",
+                      "guid": "134561",
+                      "filePaths": [
+                        "sync/StarterGui/SelectionUI/SelectionHandler/OptionsModule/Buy.luau"
+                      ]
+                    },
+                    {
+                      "name": "Cancel",
+                      "className": "ModuleScript",
+                      "guid": "134562",
+                      "filePaths": [
+                        "sync/StarterGui/SelectionUI/SelectionHandler/OptionsModule/Cancel.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "TweenValues",
+                  "className": "ModuleScript",
+                  "guid": "134563",
+                  "filePaths": [
+                    "sync/StarterGui/SelectionUI/SelectionHandler/TweenValues.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Towers",
+          "className": "ScreenGui",
+          "guid": "134703",
+          "children": [
+            {
+              "name": "OpenFrame",
+              "className": "Frame",
+              "guid": "134528",
+              "children": [
+                {
+                  "name": "OpenButton",
+                  "className": "TextButton",
+                  "guid": "134724",
+                  "children": [
+                    {
+                      "name": "UICorner",
+                      "className": "UICorner",
+                      "guid": "134751"
+                    }
+                  ]
+                },
+                {
+                  "name": "OpenLabel",
+                  "className": "TextLabel",
+                  "guid": "134732"
+                }
+              ]
+            },
+            {
+              "name": "TowersCanva",
+              "className": "CanvasGroup",
+              "guid": "134463",
+              "children": [
+                {
+                  "name": "ScrollingFrame",
+                  "className": "ScrollingFrame",
+                  "guid": "134710",
+                  "children": [
+                    {
+                      "name": "Stack",
+                      "className": "Frame",
+                      "guid": "134529",
+                      "children": [
+                        {
+                          "name": "StackButton",
+                          "className": "TextButton",
+                          "guid": "134725",
+                          "children": [
+                            {
+                              "name": "UICorner",
+                              "className": "UICorner",
+                              "guid": "134752"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "StackLabel",
+                          "className": "TextLabel",
+                          "guid": "134733"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "UIListLayout",
+                      "className": "UIListLayout",
+                      "guid": "134772"
+                    }
+                  ]
+                },
+                {
+                  "name": "UIGradient",
+                  "className": "UIGradient",
+                  "guid": "134761"
+                }
+              ]
+            },
+            {
+              "name": "TowersUI",
+              "className": "ModuleScript",
+              "guid": "134558",
+              "filePaths": [
+                "sync/StarterGui/Towers/TowersUI.luau"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPack",
+      "className": "StarterPack",
+      "guid": "134132"
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "guid": "134131",
+      "children": [
+        {
+          "name": "StarterCharacterScripts",
+          "className": "StarterCharacterScripts",
+          "guid": "134717"
+        },
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "guid": "134718",
+          "children": [
+            {
+              "name": "Client",
+              "className": "LocalScript",
+              "guid": "134541",
+              "filePaths": [
+                "sync/StarterPlayer/StarterPlayerScripts/Client.client.luau"
+              ],
+              "children": [
+                {
+                  "name": "ObjectHealth",
+                  "className": "ModuleScript",
+                  "guid": "134557",
+                  "filePaths": [
+                    "sync/StarterPlayer/StarterPlayerScripts/Client/ObjectHealth.luau"
+                  ],
+                  "children": [
+                    {
+                      "name": "HealthGUI",
+                      "className": "BillboardGui",
+                      "guid": "134460",
+                      "children": [
+                        {
+                          "name": "HealthGui",
+                          "className": "Frame",
+                          "guid": "134526",
+                          "children": [
+                            {
+                              "name": "HealthFrame",
+                              "className": "Frame",
+                              "guid": "134527",
+                              "children": [
+                                {
+                                  "name": "HealthBar",
+                                  "className": "ImageLabel",
+                                  "guid": "134535",
+                                  "children": [
+                                    {
+                                      "name": "UICorner",
+                                      "className": "UICorner",
+                                      "guid": "134748"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "HealthLabel",
+                                  "className": "TextLabel",
+                                  "guid": "134731"
+                                },
+                                {
+                                  "name": "UICorner",
+                                  "className": "UICorner",
+                                  "guid": "134749"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "UICorner",
+                              "className": "UICorner",
+                              "guid": "134750"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Workspace",
+      "className": "Workspace",
+      "guid": "133061",
+      "children": [
+        {
+          "name": "Baseplate",
+          "className": "Part",
+          "guid": "134627"
+        },
+        {
+          "name": "Camera",
+          "className": "Camera",
+          "guid": "134462"
+        },
+        {
+          "name": "NPCS",
+          "className": "Folder",
+          "guid": "134499"
+        },
+        {
+          "name": "Terrain",
+          "className": "Terrain",
+          "guid": "134722"
+        },
+        {
+          "name": "Visual",
+          "className": "Folder",
+          "guid": "134500",
+          "children": [
+            {
+              "name": "Low Poly Water",
+              "className": "Model",
+              "guid": "134550",
+              "children": [
+                {
+                  "name": "MeshPart",
+                  "className": "MeshPart",
+                  "guid": "134546"
+                },
+                {
+                  "name": "MeshPart",
+                  "className": "MeshPart",
+                  "guid": "134547"
+                },
+                {
+                  "name": "MeshPart",
+                  "className": "MeshPart",
+                  "guid": "134548",
+                  "children": [
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134736"
+                    },
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134737"
+                    },
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134738"
+                    },
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134739"
+                    },
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134740"
+                    },
+                    {
+                      "name": "Texture",
+                      "className": "Texture",
+                      "guid": "134741"
+                    }
+                  ]
+                },
+                {
+                  "name": "MeshPart",
+                  "className": "MeshPart",
+                  "guid": "134549",
+                  "children": [
+                    {
+                      "name": "SurfaceAppearance",
+                      "className": "SurfaceAppearance",
+                      "guid": "134720"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
